@@ -1,0 +1,39 @@
+{
+	"id": "default-js",
+	"title": "@Default-js",
+	"npm-prefix": "@default-js",
+	"base": "https://github.com/default-js",
+	"base-raw": "https://raw.githubusercontent.com/default-js",
+	"default-readme": "README.md",
+	"groups": [
+		{
+			"title": "Core API's",
+			"repos": ["defaultjs-html-components", "defaultjs-template-language", "defaultjs-expression-language", "defaultjs-app-toolbox"]
+		},
+		{
+			"title": "Form",
+			"repos": ["defaultjs-html-form"]
+		},
+		{
+			"title": "Web Components",
+			"repos": ["defaultjs-html-renderer", "defaultjs-html-pagination", "defaultjs-html-typeahead", "defaultjs-html-modal", "defaultjs-html-jsondata", "defaultjs-html-request", "defaultjs-html-notification", "defaultjs-html-dropdown", "defaultjs-html-button"]
+		},
+		{
+			"title": "Browser API Extentions",
+			"repos": ["defaultjs-extdom", "defaultjs-fetch-extentions", "defaultjs-httpinterceptor"]
+		},
+		{
+			"title": "Utilities",
+			"repos": ["defaultjs-dynamic-requester", "defaultjs-logging", "defaultjs-common-utils"]
+		},
+		{
+			"title": "Examples",
+			"pages": [
+				{
+					"title": "Dogspage",
+					"url": "/examples/dogspage"
+				}
+			]
+		}
+	]
+}
