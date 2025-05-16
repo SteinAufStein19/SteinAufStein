@@ -7,7 +7,7 @@ import FileManagerPlugin from "filemanager-webpack-plugin";
 import CopyPlugin from "copy-webpack-plugin";
 import pages from "./pages.js";
 
-const buildPath = path.resolve("pages");
+const buildPath = path.resolve("docs");
 
 class BuildStepPlugin {
 	#entry;
@@ -131,7 +131,7 @@ export default async (env, argv) => {
 					new FileManagerPlugin({
 						events: {
 							onStart: {
-								delete: ["./pages"],
+								delete: ["./docs"],
 							},
 						},
 						runTasksInSeries: true,
