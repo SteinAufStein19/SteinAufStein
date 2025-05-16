@@ -131,7 +131,7 @@ export default async (env, argv) => {
 					new FileManagerPlugin({
 						events: {
 							onStart: {
-								delete: ["./docs"],
+								delete: ["./pages"],
 							},
 						},
 						runTasksInSeries: true,
